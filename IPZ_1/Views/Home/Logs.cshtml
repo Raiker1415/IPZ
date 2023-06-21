@@ -1,0 +1,11 @@
+﻿@model List<IPZ_1.Logs>
+
+<div>
+    @foreach(var item in Model)
+    {
+        <div>
+            @item.Time | @item.UserName | @item.Action
+            <hr />
+        </div> 
+    }
+</div>
